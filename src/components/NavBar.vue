@@ -1,11 +1,9 @@
 <script setup lang="ts">
     import { ref } from 'vue';
-    import Menu from '../interface/Menu'
+    import { useNavbarStore } from '../store/navbar'
     
     const showMenu = ref<Boolean>(false);
-    const mainMenu = ref<Menu>(
-        { about: 'О нас', document: 'Документы', management: 'Руководство', news: 'Новости', employees: 'Сотрудники' }
-    )
+    const store = useNavbarStore()
 </script>
 
 <template>
@@ -21,19 +19,19 @@
       <div class="top-nav w-top lg:inline-flex lg:flex-grow lg-w-auto" :class="(showMenu) ? 'hidden' : 'tiggle'">
         <div class="lg:inline-flex lg:flex-row lg:ml-auto flex flex-col">
           <a href="#" class="lg:inline-flex lg:w-auto px-3 py-2 rounded text-[#00486D] font-serif font-normal text-xl hover:bg-blue-200">
-            <span>{{ mainMenu.about }}</span>
+            <span>{{ store.getMainMenu.about }}</span>
           </a>
           <a href="#" class="lg:inline-flex lg:w-auto px-3 py-2 rounded text-[#00486D] font-serif font-normal text-xl hover:bg-blue-200">
-            <span>{{ mainMenu.document }}</span>
+            <span>{{ store.getMainMenu.document }}</span>
           </a>
           <a href="#" class="lg:inline-flex lg:w-auto px-3 py-2 rounded text-[#00486D] font-serif font-normal text-xl hover:bg-blue-200">
-            <span>{{ mainMenu.management }}</span>
+            <span>{{ store.getMainMenu.management }}</span>
           </a>
           <a href="#" class="lg:inline-flex lg:w-auto px-3 py-2 rounded text-[#00486D] font-serif font-normal text-xl hover:bg-blue-200">
-            <span>{{ mainMenu.news }}</span>
+            <span>{{ store.getMainMenu.news }}</span>
           </a>
           <a href="#" class="lg:inline-flex lg:w-auto px-3 py-2 rounded text-[#00486D] font-serif font-normal text-xl hover:bg-blue-200">
-            <span>{{ mainMenu.employees }}</span>
+            <span>{{ store.getMainMenu.employees }}</span>
           </a>
         </div>
       </div>
