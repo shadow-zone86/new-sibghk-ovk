@@ -34,6 +34,7 @@
             <span>{{ store.getMainMenu.employees }}</span>
           </a>
         </div>
+        <div><h1 class="opacity-0">h</h1></div>
       </div>
     </nav>
 </template>
