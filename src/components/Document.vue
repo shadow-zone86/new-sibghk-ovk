@@ -12,9 +12,9 @@
             <div class="lg:h-72"></div>
             <div class="flex flex-col justify-center lg:w-2/3">
                 <div class="lg:w-2/3">
-                    <p class="text-[#00486D] font-serif font-serif lg:text-6xl font-normal">{{ store.description.title }}</p>
+                    <p class="text-[#00486D] font-serif lg:text-6xl font-normal">{{ store.description.title }}</p>
                     <br />
-                    <p class="text-[#00486D] font-serif font-serif lg:text-2xl font-normal">{{ store.description.description }}</p>
+                    <p class="text-[#00486D] font-serif lg:text-2xl font-normal">{{ store.description.description }}</p>
                 </div>
             </div>
         </div>
@@ -26,8 +26,8 @@
                 <div class="mt-8 ml-8 mb-8 mr-8 w-full">
                     <img src="../assets/document/www.png">
                     <div class="mt-20 flex flex-col justify-center">
-                        <p class="text-[#00486D] font-serif font-serif lg:text-xl font-normal">{{ store.activities.description }}</p>
-                        <p class="w-3 mt-44 text-[#00486D] font-serif font-serif lg:text-xl font-normal hover:text-neutral-900 hover:cursor-pointer">{{ button }}</p>
+                        <p class="text-[#00486D] font-serif lg:text-xl font-normal">{{ store.activities.description }}</p>
+                        <p class="w-3 mt-44 text-[#00486D] font-serif lg:text-xl font-normal hover:text-neutral-900 hover:cursor-pointer">{{ button }}</p>
                     </div>
                 </div>
             </div>
@@ -35,8 +35,8 @@
                 <div class="mt-8 ml-8 mb-8 mr-8 w-full">
                     <img src="../assets/document/build.png">
                     <div class="mt-20 flex flex-col justify-center">
-                        <p class="text-[#00486D] font-serif font-serif lg:text-xl font-normal">{{ store.responsibilities.description }}</p>
-                        <p class="w-3 mt-44 text-[#00486D] font-serif font-serif lg:text-xl font-normal hover:text-neutral-900 hover:cursor-pointer">{{ button }}</p>
+                        <p class="text-[#00486D] font-serif lg:text-xl font-normal">{{ store.responsibilities.description }}</p>
+                        <p class="w-3 mt-44 text-[#00486D] font-serif lg:text-xl font-normal hover:text-neutral-900 hover:cursor-pointer">{{ button }}</p>
                     </div>
                 </div>
             </div>
@@ -44,8 +44,8 @@
                 <div class="mt-8 ml-8 mb-8 mr-8 w-full">
                     <img src="../assets/document/book.png">
                     <div class="mt-24 flex flex-col justify-center">
-                        <p class="text-[#00486D] font-serif font-serif lg:text-xl font-normal">{{ store.case.description }}</p>
-                        <p class="w-3 mt-44 text-[#00486D] font-serif font-serif lg:text-xl font-normal hover:text-neutral-900 hover:cursor-pointer">{{ button }}</p>
+                        <p class="text-[#00486D] font-serif lg:text-xl font-normal">{{ store.case.description }}</p>
+                        <p class="w-3 mt-44 text-[#00486D] font-serif lg:text-xl font-normal hover:text-neutral-900 hover:cursor-pointer">{{ button }}</p>
                     </div>
                 </div>
             </div>
