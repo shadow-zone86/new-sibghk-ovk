@@ -1,8 +1,8 @@
 <script setup lang="ts">
-  import ZeroBlock from './components/ZeroBlock.vue'
-  import NavBar from './components/NavBar.vue'
-  import About from './components/About.vue'
-  import Document from './components/Document.vue'
+  import ZeroBlock from './components/zero-block/index'
+  import NavBar from './components/navbar/index'
+  import About from './components/about/index'
+  import Document from './components/document/index'
 </script>
 
 <template>

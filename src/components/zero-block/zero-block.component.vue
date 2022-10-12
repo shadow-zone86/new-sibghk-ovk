@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    import { useZeroBlockStore } from '../store/zeroblock'
+    import { useZeroBlockStore } from '../../store/zeroblock'
     
     const store = useZeroBlockStore()
 </script>

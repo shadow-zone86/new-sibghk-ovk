@@ -1,6 +1,6 @@
 <script setup lang="ts">
     import { ref } from 'vue';
-    import { useNavbarStore } from '../store/navbar'
+    import { useNavbarStore } from '../../store/navbar'
     
     const showMenu = ref<Boolean>(false);
     const store = useNavbarStore()
