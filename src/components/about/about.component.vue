@@ -1,12 +1,12 @@
 <script setup lang="ts">
-  import { useAboutStore } from '../store/about'
+  import { useAboutStore } from '../../store/about'
     
   const store = useAboutStore()
 </script>
 
 <template>
   <section>
-    <img class="absolute top-[130px] left-[33px]" src="../assets/about/point-double.png">
+    <img class="absolute top-[130px] left-[33px]" src="./image/point-double.png">
     <div class="mx-auto lg:flex px-8 bg-[#E4ECF0]">
       <div class="flex flex-col justify-center lg:w-2/3">
         <div class="lg:w-2/3">
@@ -16,9 +16,9 @@
         </div>
       </div>
       <div class="lg:w-1/3 lg:bg-[#00486D]">
-        <img class="absolute top-[810px] right-[570px]" src="../assets/about/point.png">
-        <img class="lg:bottom-0 lg:right-7 opacity-0" src="../assets/about/build.png">
-        <img class="lg:absolute lg:top-[200px] lg:right-[100px]" src="../assets/about/build.png">
+        <img class="absolute top-[810px] right-[570px]" src="./image/point.png">
+        <img class="lg:bottom-0 lg:right-7 opacity-0" src="./image/build.png">
+        <img class="lg:absolute lg:top-[200px] lg:right-[100px]" src="./image/build.png">
       </div>
     </div>
   </section>
