@@ -1,0 +1,1 @@
+export { default } from './block-type-document.component.vue';
