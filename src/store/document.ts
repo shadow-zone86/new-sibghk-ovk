@@ -10,15 +10,15 @@ export const useDocumentStore = defineStore({
         } as Description,
         typeDocument: {
             activities: {
-                title: '',
+                title: 'activities',
                 description: 'Документы по деятельности ОВК'
             } as Description,
             responsibilities: {
-                title: '',
+                title: 'responsibilities',
                 description: 'Документы по применению мер ответственности'
             } as Description,
             case: {
-                title: '',
+                title: 'case',
                 description: 'Положение об ОВК'
             } as Description
         } as any
