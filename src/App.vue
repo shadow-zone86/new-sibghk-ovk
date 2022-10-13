@@ -4,6 +4,7 @@
   import About from './components/about/index'
   import Document from './components/document/index'
   import Management from './components/management/index'
+  import News from './components/news/index'
 </script>
 
 <template>
@@ -12,4 +13,5 @@
   <About />
   <Document />
   <Management />
+  <News />
 </template>
