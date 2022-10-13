@@ -30,5 +30,6 @@
                 </div>
             </div>
         </div>
+        <div class="lg:h-96"></div>
     </section>
 </template>
