@@ -3,7 +3,7 @@
   import { ref } from 'vue'
     
   const store = useManagementStore()
-  const button = ref<String>('Обратная связь')
+  const button = ref<string>('Обратная связь')
 </script>
 
 <template>

@@ -3,7 +3,7 @@
   import { ref } from 'vue'
     
   const store = useDocumentStore()
-  const button = ref<String>('Подробнее')
+  const button = ref<string>('Подробнее')
 </script>
 
 <template>

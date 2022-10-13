@@ -2,7 +2,7 @@
     import { ref } from 'vue';
     import { useNavbarStore } from '../../store/navbar'
     
-    const showMenu = ref<Boolean>(false);
+    const showMenu = ref<boolean>(false);
     const store = useNavbarStore()
 </script>
 
