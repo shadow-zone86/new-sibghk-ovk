@@ -5,6 +5,7 @@
   import Document from './components/document/index'
   import Management from './components/management/index'
   import News from './components/news/index'
+  import Worker from './components/worker/index'
 </script>
 
 <template>
@@ -14,4 +15,5 @@
   <Document />
   <Management />
   <News />
+  <Worker />
 </template>
