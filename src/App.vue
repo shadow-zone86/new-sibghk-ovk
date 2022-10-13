@@ -3,6 +3,7 @@
   import NavBar from './components/navbar/index'
   import About from './components/about/index'
   import Document from './components/document/index'
+  import Management from './components/management/index'
 </script>
 
 <template>
@@ -10,4 +11,5 @@
   <NavBar />
   <About />
   <Document />
+  <Management />
 </template>
