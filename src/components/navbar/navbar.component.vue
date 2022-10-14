@@ -18,19 +18,19 @@
       </div>
       <div class="top-nav w-top lg:inline-flex lg:flex-grow lg-w-auto" :class="(showMenu) ? 'hidden' : 'tiggle'">
         <div class="lg:inline-flex lg:flex-row lg:ml-auto flex flex-col">
-          <a href="#" class="lg:inline-flex lg:w-auto px-3 py-2 rounded text-[#00486D] font-serif font-normal text-xl hover:bg-blue-200">
+          <a href="#about" class="lg:inline-flex lg:w-auto px-3 py-2 rounded text-[#00486D] font-serif font-normal text-xl hover:bg-blue-200">
             <span>{{ store.getMainMenu.about }}</span>
           </a>
-          <a href="#" class="lg:inline-flex lg:w-auto px-3 py-2 rounded text-[#00486D] font-serif font-normal text-xl hover:bg-blue-200">
+          <a href="#document" class="lg:inline-flex lg:w-auto px-3 py-2 rounded text-[#00486D] font-serif font-normal text-xl hover:bg-blue-200">
             <span>{{ store.getMainMenu.document }}</span>
           </a>
-          <a href="#" class="lg:inline-flex lg:w-auto px-3 py-2 rounded text-[#00486D] font-serif font-normal text-xl hover:bg-blue-200">
+          <a href="#management" class="lg:inline-flex lg:w-auto px-3 py-2 rounded text-[#00486D] font-serif font-normal text-xl hover:bg-blue-200">
             <span>{{ store.getMainMenu.management }}</span>
           </a>
-          <a href="#" class="lg:inline-flex lg:w-auto px-3 py-2 rounded text-[#00486D] font-serif font-normal text-xl hover:bg-blue-200">
+          <a href="#news" class="lg:inline-flex lg:w-auto px-3 py-2 rounded text-[#00486D] font-serif font-normal text-xl hover:bg-blue-200">
             <span>{{ store.getMainMenu.news }}</span>
           </a>
-          <a href="#" class="lg:inline-flex lg:w-auto px-3 py-2 rounded text-[#00486D] font-serif font-normal text-xl hover:bg-blue-200">
+          <a href="#worker" class="lg:inline-flex lg:w-auto px-3 py-2 rounded text-[#00486D] font-serif font-normal text-xl hover:bg-blue-200">
             <span>{{ store.getMainMenu.employees }}</span>
           </a>
         </div>
