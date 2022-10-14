@@ -4,6 +4,6 @@
 </script>
 
 <template>
-    <BlockDescription />
+    <BlockDescription id="worker" />
     <BlockWorker />
 </template>
