@@ -16,7 +16,7 @@
           <div class="tham-inner bg-[#00486D]"></div>
         </div>
       </div>
-      <div class="top-nav w-top lg:inline-flex lg:flex-grow lg-w-auto" :class="(showMenu) ? 'hidden' : 'tiggle'">
+      <div class="top-nav w-top lg:inline-flex lg:flex-grow lg-w-auto mr-2" :class="(showMenu) ? 'hidden' : 'tiggle'">
         <div class="lg:inline-flex lg:flex-row lg:ml-auto flex flex-col">
           <a href="#about" class="lg:inline-flex lg:w-auto px-3 py-2 rounded text-[#00486D] font-serif font-normal text-xl hover:bg-blue-200">
             <span>{{ store.getMainMenu.about }}</span>
@@ -34,7 +34,6 @@
             <span>{{ store.getMainMenu.employees }}</span>
           </a>
         </div>
-        <div><h1 class="opacity-0">h</h1></div>
       </div>
     </nav>
 </template>
