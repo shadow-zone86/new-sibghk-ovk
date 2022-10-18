@@ -8,7 +8,6 @@
 
 <template>
   <section>
-    <img class="absolute top-[2286px] left-[1700px]" src="./images/point-double.png">
     <div class="mx-auto lg:flex mt-80 px-8 bg-blue-50">
         <div class="flex flex-col justify-center lg:w-1/3">
             <div class="lg:w-[499px]">
