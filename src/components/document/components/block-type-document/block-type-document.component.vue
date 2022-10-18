@@ -22,7 +22,7 @@
                         <p class="text-[#00486D] font-serif lg:text-xl font-normal">
                             {{ item.description }}
                         </p>
-                        <p class="lg:w-[118px] mt-44 text-[#00486D] font-serif lg:text-xl font-normal px-3 py-2 rounded hover:bg-blue-200 hover:cursor-pointer">
+                        <p @click="store.setActive(item.title)" class="lg:w-[118px] mt-44 text-[#00486D] font-serif lg:text-xl font-normal px-3 py-2 rounded hover:bg-blue-200 hover:cursor-pointer">
                             {{ button }}
                         </p>
                     </div>
