@@ -1,5 +1,7 @@
 <script setup lang="ts">
+  import BlockNews from './components/block-news/index'
   import { useNewsStore } from '../../store/news'
+  import { ref } from 'vue'
     
   const store = useNewsStore()
   const getNewsTitle = () => {
@@ -9,6 +11,7 @@
     store.setActive(click)
     return
   }
+  const title = ref<string>('description')
 </script>
 
 <template>
@@ -21,7 +24,7 @@
             </div>
             <div class="flex flex-col justify-center lg:w-3/5 mr-60">
                 <div class="w-full">
-                    <p class="text-[#00486D] font-serif lg:text-2xl font-normal hover:cursor-pointer hover:text-[#000000]">
+                    <p @click="store.setActiveDescription(title)" class="text-[#00486D] font-serif lg:text-2xl font-normal hover:cursor-pointer hover:text-[#000000]">
                         {{ getNewsTitle() }}
                     </p>
                 </div>
@@ -33,4 +36,5 @@
             </div>
         </div>
     </section>
+    <BlockNews v-if="store.getVisible" />
 </template>
