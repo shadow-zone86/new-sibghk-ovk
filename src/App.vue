@@ -15,7 +15,7 @@
   <About id="about" />
   <Document />
   <Management id="management" />
-  <News id="news" />
+  <News />
   <Worker />
   <Foter />
 </template>

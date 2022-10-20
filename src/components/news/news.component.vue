@@ -15,7 +15,7 @@
 </script>
 
 <template>
-    <section>
+    <section id="news">
         <div class="mx-auto lg:flex mt-40 ml-52 px-8">
             <div class="flex flex-col justify-center lg:w-1/5">
                 <div class="w-full">
