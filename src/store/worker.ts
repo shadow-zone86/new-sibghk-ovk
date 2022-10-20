@@ -13,27 +13,37 @@ export const useWorkerStore = defineStore({
             dmitriev: {
                 title: 'dmitriev',
                 name: 'Дмитриев Михаил Сергеевич',
-                post: 'Начальник отдела'
+                post: 'Начальник ОВК'
+            } as Worker,
+            alexandrova: {
+                title: 'alexandrova',
+                name: 'Александрова Марина Владимировна',
+                post: 'Эксперт КРГ'
             } as Worker,
             aleksandrova: {
                 title: 'aleksandrova',
                 name: 'Александрова Наталья Александровна',
-                post: 'Ведущий юрисконсульт'
-            } as Worker,
-            protopopov: {
-                title: 'protopopov',
-                name: 'Протопопов Дмитрий Борисович',
-                post: 'Инженер'
-            } as Worker,
-            salomatova: {
-                title: 'salomatova',
-                name: 'Саломатова Елена Ивановна',
-                post: 'Специалист по закупкам'
+                post: 'Ведущий юрисконсульт ГАиА'
             } as Worker,
             behgold: {
                 title: 'behgold',
                 name: 'Бехтгольд Марина Михайловна',
-                post: 'Бухгалтер-ревизор'
+                post: 'Бухгалтер-ревизор ГАиА ОВК'
+            } as Worker,
+            protopopov: {
+                title: 'protopopov',
+                name: 'Протопопов Дмитрий Борисович',
+                post: 'Инженер КРГ'
+            } as Worker,
+            rabikov: {
+                title: 'rabikov',
+                name: 'Рябиков Александр Владимирович',
+                post: 'Экономист по БУиАХД КРГ'
+            } as Worker,
+            salomatova: {
+                title: 'salomatova',
+                name: 'Саломатова Елена Ивановна',
+                post: 'Бухгалтер-ревизор КРГ'
             } as Worker
         } as any
     }),

@@ -24,12 +24,12 @@
                     <p class="text-[#00486D] font-serif lg:text-x1 font-bold px-3 py-2">
                         {{ item.post }}
                     </p>
-                    <p class="mt-24 w-36 text-[#00486D] font-serif lg:text-xl font-normal px-3 py-2 rounded hover:bg-blue-200 hover:cursor-pointer">
+                    <p class="mt-24 w-[138px] text-[#00486D] font-serif lg:text-xl font-normal px-3 py-2 rounded hover:bg-blue-200 hover:cursor-pointer">
                         {{ button }}
                     </p>
                 </div>
             </div>
         </div>
-        <div class="lg:h-96"></div>
+        <div class="lg:h-[800px]"></div>
     </section>
 </template>
