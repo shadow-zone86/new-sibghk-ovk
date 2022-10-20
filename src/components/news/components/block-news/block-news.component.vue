@@ -15,7 +15,7 @@
         <div class="lg:h-10"></div>
         <div class="mx-auto lg:flex flex-col px-8 gap-7">
             <div class="flex">
-                <p class="mt-1 ml-1 font-serif lg:text-xl font-normal">{{ getNewsDescription() }}</p>
+                <div v-html="getNewsDescription()" class="mt-1 ml-1 font-serif lg:text-xl font-normal"></div>
             </div>
         </div>
         <div class="flex px-6">
