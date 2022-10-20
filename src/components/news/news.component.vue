@@ -4,8 +4,8 @@
   import { ref } from 'vue'
     
   const store = useNewsStore()
-  const getNewsTitle = () => {
-    return store.getNews[store.getActive].title
+  const getNewsInfo = () => {
+    return store.getNews[store.getActive]
   }
   const setNews = (click:number) => {
     store.setActive(click)
@@ -25,8 +25,9 @@
             <div class="flex flex-col justify-center lg:w-3/5 mr-60">
                 <div class="w-full">
                     <p @click="store.setActiveDescription(title)" class="text-[#00486D] font-serif lg:text-2xl font-normal hover:cursor-pointer hover:text-[#000000]">
-                        {{ getNewsTitle() }}
+                        {{ getNewsInfo().title }}
                     </p>
+                    <p class="text-[#00486D] font-serif lg:text-1xl font-normal italic mt-8">{{ getNewsInfo().date }}</p>
                 </div>
             </div>
             <div class="flex flex-col justify-center lg:w-1/5">
