@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { useNewsStore } from '../../../../store/news'
-  import { ref } from 'vue'
+  import { ref, onMounted } from 'vue'
     
   const store = useNewsStore()
   const getNewsInfo = () => {
@@ -11,6 +11,7 @@
     return
   }
   const title = ref<string>('description')
+  onMounted(store.setLastActive)
 </script>
 
 <template>

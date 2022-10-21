@@ -57,6 +57,9 @@ export const useNewsStore = defineStore({
         },
         setActiveDescription(title:string) {
             (this.visible != title) ? this.visible = title : this.visible = ''
+        },
+        setLastActive() {
+            this.active = (Object.keys(this.news).length) - 1
         }
     }
 })
