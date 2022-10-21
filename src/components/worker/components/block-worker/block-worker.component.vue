@@ -25,9 +25,9 @@
                         {{ item.post }}
                     </p>
                     <div class="flex">  
-                    <p class="mt-24 w-[138px] text-[#00486D] font-serif lg:text-xl font-normal px-3 py-2 rounded hover:bg-blue-200 hover:cursor-pointer">
+                    <a :href="`${ item.url }`" class="mt-24 w-[138px] text-[#00486D] font-serif lg:text-xl font-normal px-3 py-2 rounded hover:bg-blue-200">
                         {{ button }}
-                    </p>
+                    </a>
                     <img @mouseenter="store.setToogle(item.title)" @mouseleave="store.setToogle(item.title)" class="mt-20 hover:cursor-help w-8" :src="`/images/question.svg`" alt="Illustration">
                     <div v-if="store.getQuestionWorker == item.title" v-show="store.getToogle" v-html="item.question" class="bg-gray-600 bg-opacity-80 rounded-sm text-white text-xs font-serif font-normal p-2 absolute mt-[136px] ml-2"></div>
                 </div>
