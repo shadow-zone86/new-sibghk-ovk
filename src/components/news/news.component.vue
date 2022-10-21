@@ -37,5 +37,18 @@
             </div>
         </div>
     </section>
-    <BlockNews v-if="store.getVisible" />
+    <transition name="fade">
+        <BlockNews v-if="store.getVisible" />
+    </transition>
 </template>
+
+<style scoped>
+  .fade-enter-from,
+  .fade-leave-to {
+    opacity: 0;
+  }
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 2s ease;
+  }
+</style>

@@ -1,7 +1,6 @@
 <script setup lang="ts">
   import { useWorkerStore } from '../../../../store/worker'
   import { ref } from 'vue'
-  import 'flowbite'
     
   const store = useWorkerStore()
   const button = ref<string>('Задай вопрос')
