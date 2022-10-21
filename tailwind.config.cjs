@@ -5,7 +5,12 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        '2lg': '1536px',
+        '3xl': '1821px',
+      },
+    },
   },
   plugins: [
     require('tailwind-hamburgers')
