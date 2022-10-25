@@ -8,7 +8,7 @@
 </script>
 
 <template>
-    <BlockDescription id="document" />
+    <BlockDescription />
     <BlockTypeDocument />
     <transition name="fade">
       <BlockDocument v-if="store.getActive" />

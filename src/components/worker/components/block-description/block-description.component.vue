@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <section>
+    <section class="mt-96">
         <div class="mx-auto px-8">
             <div class="flex flex-col justify-center lg:w-2/3">
                 <div class="lg:w-2/3">

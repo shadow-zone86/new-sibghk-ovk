@@ -5,9 +5,8 @@
 </script>
 
 <template>
-    <section>
+    <section id="document">
         <div class="mx-auto px-8">
-            <div class="lg:h-72"></div>
             <div class="flex flex-col justify-center lg:w-2/3">
                 <div class="lg:w-2/3">
                     <p class="text-[#00486D] font-serif lg:text-6xl font-normal">{{ store.description.title }}</p>

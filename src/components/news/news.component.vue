@@ -7,7 +7,7 @@
 </script>
 
 <template>
-    <BlockTitleNews id="news" />
+    <BlockTitleNews />
     <transition name="fade">
         <BlockNews v-if="store.getVisible" />
     </transition>
