@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <section>
+  <section class="mb-96">
     <img class="absolute top-[130px] left-[33px] xl:opacity-100 opacity-0" src="./image/point-double.png">
     <div class="mx-auto lg:flex px-8 bg-[#E4ECF0]">
       <div class="flex flex-col justify-center xl:w-2/3 lg:w-3/4">
