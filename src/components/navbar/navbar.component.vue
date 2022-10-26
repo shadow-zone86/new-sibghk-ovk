@@ -9,7 +9,7 @@
 <template>
     <nav class="flex items-center bg-[#F2F6F7] p-3 flex-wrap relative z-10">
       <div class="p-2 mr-4 inline-flex items-center">
-        <div class="bg-[url('./assets/app/logo.png')] bg-[length:70px_40px] fill-current h-8 w-12 mr-2"></div>
+        <img src="/images/logo.png" class="absolute w-44">
       </div>
       <div class="tham tham-e-squeeze tham-w-6 lg:hidden ml-auto" :class="(showMenu) ? 'tham' : 'tham-active'" @click="showMenu = !showMenu">
         <div class="tham-box">
