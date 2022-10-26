@@ -14,7 +14,7 @@ export const useWorkerStore = defineStore({
                 title: 'dmitriev',
                 name: 'Дмитриев Михаил Сергеевич',
                 post: 'Начальник ОВК',
-                url: '#',
+                url: 'mailto:MiSDmitriev@sibghk.ru',
                 question:
                     '<p><b>' + 'Направления, по которым можно задать вопросы:' + '</b></p>' +
                     '- соблюдение требований корпоративного управления;' + '<br />' + 
@@ -29,7 +29,7 @@ export const useWorkerStore = defineStore({
                 title: 'alexandrova',
                 name: 'Александрова Марина Владимировна',
                 post: 'Эксперт КРГ',
-                url: '#',
+                url: 'mailto:MVlAleksandrova@sibghk.ru?cc=MiSDmitriev@sibghk.ru',
                 question:
                     '<p><b>' + 'Направления, по которым можно задать вопросы:' + '</b></p>' +
                     '- выполнение ключевых показателей эффективности деятельности;' + '<br />' + 
@@ -42,7 +42,7 @@ export const useWorkerStore = defineStore({
                 title: 'aleksandrova',
                 name: 'Александрова Наталья Александровна',
                 post: 'Ведущий юрисконсульт ГАиА',
-                url: '#',
+                url: 'mailto:NaAAleksandrova@sibghk.ru?cc=MiSDmitriev@sibghk.ru',
                 question:
                     '<p><b>' + 'Направления, по которым можно задать вопросы:' + '</b></p>' +
                     '- выполнение ключевых показателей эффективности деятельности;' + '<br />' + 
@@ -55,7 +55,7 @@ export const useWorkerStore = defineStore({
                 title: 'behgold',
                 name: 'Бехтгольд Марина Михайловна',
                 post: 'Бухгалтер-ревизор ГАиА ОВК',
-                url: '#',
+                url: 'mailto:MMBekhtgold@sibghk.ru?cc=MiSDmitriev@sibghk.ru',
                 question:
                     '<p><b>' + 'Направления, по которым можно задать вопросы:' + '</b></p>' +
                     '- использование основных средств и иных ТМЦ;' + '<br />' + 
@@ -67,7 +67,7 @@ export const useWorkerStore = defineStore({
                 title: 'protopopov',
                 name: 'Протопопов Дмитрий Борисович',
                 post: 'Инженер КРГ',
-                url: '#',
+                url: 'mailto:DBProtopopov@sibghk.ru?cc=MiSDmitriev@sibghk.ru',
                 question:
                     '<p><b>' + 'Направления, по которым можно задать вопросы:' + '</b></p>' +
                     '- управление запасами;' + '<br />' + 
@@ -79,7 +79,7 @@ export const useWorkerStore = defineStore({
                 title: 'rabikov',
                 name: 'Рябиков Александр Владимирович',
                 post: 'Экономист по БУиАХД КРГ',
-                url: '#',
+                url: 'mailto:AVRyabikov@sibghk.ru?cc=MiSDmitriev@sibghk.ru',
                 question:
                     '<p><b>' + 'Направления, по которым можно задать вопросы:' + '</b></p>' +
                     '- проверка капитального строительства;' + '<br />' + 
@@ -91,7 +91,7 @@ export const useWorkerStore = defineStore({
                 title: 'salomatova',
                 name: 'Саломатова Елена Ивановна',
                 post: 'Бухгалтер-ревизор КРГ',
-                url: '#',
+                url: 'mailto:EISalomatova@sibghk.ru?cc=MiSDmitriev@sibghk.ru',
                 question:
                     '<p><b>' + 'Направления, по которым можно задать вопросы:' + '</b></p>' +
                     '- управление запасами;' + '<br />' + 
