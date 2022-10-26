@@ -9,25 +9,31 @@
   import Foter from './components/footer/index'
   import Panel from './components/panel/index'
   import { usePanelStore } from './store/panel'
+  import { onBeforeMount, onBeforeUnmount } from 'vue'
 
   const store = usePanelStore()
   const onScroll = () => {
-    (window.scrollY > 50) ? store.setOnShow(true) : store.setOnShow(false)
+    (window.scrollY > 100) ? store.setOnShow(true) : store.setOnShow(false)
   }
+  onBeforeMount(() => {
+    window.addEventListener('scroll', onScroll)
+  })
+
+  onBeforeUnmount(() => {
+    window.addEventListener('scroll', onScroll)
+  })
 </script>
 
 <template>
-  <div @wheel="onScroll()">
-    <ZeroBlock />
-    <NavBar id="navbar" />
-    <About id="about" />
-    <Document />
-    <Management id="management" />
-    <News />
-    <Worker />
-    <Foter />
-    <Panel :active="store.getOnShow" />
-  </div>
+  <ZeroBlock />
+  <NavBar id="navbar" />
+  <About id="about" />
+  <Document />
+  <Management id="management" />
+  <News />
+  <Worker />
+  <Foter />
+  <Panel />
 </template>
 
 <style>
