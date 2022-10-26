@@ -1,6 +1,7 @@
 <script setup lang="ts">
   import { useDocumentStore } from '../../../../store/document'
   import { ref } from 'vue'
+  import { Icon } from '@iconify/vue'
     
   const store = useDocumentStore()
   const button = ref<string>('Закрыть')
@@ -15,7 +16,7 @@
             class="mx-auto lg:flex flex-col px-8 gap-7"
         >
             <div class="flex">
-                <img class="h-[25px]" src="../../images/pdf-logo.svg" alt="Illustration">
+                <Icon icon="bi:file-earmark-pdf" color="red" width="27" />
                 <a :href="`${ item.description }`" class="mt-1 ml-1 font-serif lg:text-xl font-normal">{{ item.title }}</a>
             </div>
         </div>
