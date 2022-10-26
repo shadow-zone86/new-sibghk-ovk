@@ -1,6 +1,7 @@
 <script setup lang="ts">
   import { useManagementStore } from '../../store/management'
   import { ref } from 'vue'
+  import { Icon } from '@iconify/vue'
     
   const store = useManagementStore()
   const button = ref<string>('Обратная связь')
@@ -16,7 +17,7 @@
         </div>
         <div class="flex flex-col justify-center lg:w-1/3">
             <div class="lg:w-2/3">
-                <img src="./images/group.png">
+                <Icon icon="mingcute:quote-left-fill" color="#00486D" width="46" />
                 <p class="mt-8 text-[#00486D] font-serif lg:text-2xl font-normal">{{ store.getQuote }}</p>
             </div>
         </div>

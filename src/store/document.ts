@@ -1,5 +1,6 @@
 import { defineStore } from "pinia";
 import Description from '../interface/Description'
+import Document from '../interface/Document'
 
 export const useDocumentStore = defineStore({
     id: 'document',
@@ -11,16 +12,19 @@ export const useDocumentStore = defineStore({
         typeDocument: {
             activities: {
                 title: 'activities',
-                description: 'Документы по деятельности ОВК'
-            } as Description,
+                description: 'Документы по деятельности ОВК',
+                data: 'et:global'
+            } as Document,
             responsibilities: {
                 title: 'responsibilities',
-                description: 'Документы по применению мер ответственности'
-            } as Description,
+                description: 'Документы по применению мер ответственности',
+                data: 'et:caution'
+            } as Document,
             case: {
                 title: 'case',
-                description: 'Положение об ОВК'
-            } as Description
+                description: 'Положение об ОВК',
+                data: 'et:gears'
+            } as Document
         } as any,
         document: {
             activities: {

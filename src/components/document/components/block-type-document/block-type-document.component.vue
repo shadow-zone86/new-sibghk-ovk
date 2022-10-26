@@ -1,6 +1,7 @@
 <script setup lang="ts">
   import { useDocumentStore } from '../../../../store/document'
   import { ref } from 'vue'
+  import { Icon } from '@iconify/vue'
     
   const store = useDocumentStore()
   const button = ref<string>('Подробнее')
@@ -16,7 +17,7 @@
             >
                 <div class="mt-8 ml-8 mb-8 mr-8 w-full">
                     <div class="h-16">
-                        <img :src="`/images/${ item.title }.png`" alt="Illustration">
+                        <Icon :icon="`${ item.data }`" color="#00486D" width="56" />
                     </div>
                     <div class="mt-20 flex flex-col justify-center">
                         <p class="text-[#00486D] font-serif lg:text-xl font-normal">
