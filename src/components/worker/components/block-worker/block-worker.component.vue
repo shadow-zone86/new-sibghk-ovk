@@ -9,7 +9,7 @@
 <template>
     <section>
         <div class="lg:h-10"></div>
-        <div class="mx-auto flex-wrap lg:flex px-8 gap-14 h-[442px]">
+        <div class="mx-auto flex-wrap lg:flex px-8 gap-14 h-[442px] relative z-10">
             <div 
                 v-for="item in store.getWorker" :key="item" 
                 class="flex w-[31%] bg-[#FFFFFF] border-solid border-t-[1px] border-[#E4ECF0] shadow-[0_24px_24px_rgba(0,72,109,0.2)]"
