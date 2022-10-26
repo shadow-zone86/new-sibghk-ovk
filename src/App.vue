@@ -7,17 +7,27 @@
   import News from './components/news/index'
   import Worker from './components/worker/index'
   import Foter from './components/footer/index'
+  import Panel from './components/panel/index'
+  import { usePanelStore } from './store/panel'
+
+  const store = usePanelStore()
+  const onScroll = () => {
+    (window.scrollY > 50) ? store.setOnShow(true) : store.setOnShow(false)
+  }
 </script>
 
 <template>
-  <ZeroBlock />
-  <NavBar id="navbar" />
-  <About id="about" />
-  <Document />
-  <Management id="management" />
-  <News />
-  <Worker />
-  <Foter />
+  <div @wheel="onScroll()">
+    <ZeroBlock />
+    <NavBar id="navbar" />
+    <About id="about" />
+    <Document />
+    <Management id="management" />
+    <News />
+    <Worker />
+    <Foter />
+    <Panel :active="store.getOnShow" />
+  </div>
 </template>
 
 <style>
