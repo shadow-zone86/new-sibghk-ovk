@@ -12,13 +12,12 @@
     <div class="mx-auto lg:flex mt-80 px-8 bg-blue-50">
         <div class="flex flex-col justify-center lg:w-1/3">
             <div class="lg:w-[499px]">
-                <img src="/custom_apps/siteovk/images/management/konev.png">
+                <img src="./images/konev.png">
             </div>
         </div>
         <div class="flex flex-col justify-center lg:w-1/3">
             <div class="lg:w-2/3">
-                <!-- <Icon icon="mingcute:quote-left-fill" color="#00486D" width="46" /> -->
-                <img class="w-8" :src="`/custom_apps/siteovk/images/management/citate.png`" alt="Illustration">
+                <Icon icon="mingcute:quote-left-fill" color="#00486D" width="46" />
                 <p class="mt-8 text-[#00486D] font-serif lg:text-2xl font-normal">{{ store.getDescription.quote }}</p>
             </div>
         </div>

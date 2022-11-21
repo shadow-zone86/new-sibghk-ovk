@@ -25,7 +25,7 @@
 </script>
 
 <template>
-  <!-- <ZeroBlock /> -->
+  <ZeroBlock />
   <NavBar id="navbar" />
   <About id="about" />
   <Document />

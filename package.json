@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "build2": "vue-tsc --noEmit && vite build --base=/custom_apps/siteovk/",
     "preview": "vite preview"
   },
   "dependencies": {
