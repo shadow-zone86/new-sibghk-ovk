@@ -16,8 +16,11 @@
             class="mx-auto lg:flex flex-col px-8 gap-7"
         >
             <div class="flex">
-                <Icon icon="bi:file-earmark-pdf" color="red" width="27" />
-                <a :href="`${ item.description }`" class="mt-1 ml-1 font-serif lg:text-xl font-normal">{{ item.title }}</a>
+                <!-- <Icon icon="bi:file-earmark-pdf" color="red" width="27" /> -->
+                <div class="flex flex-wrap mb-4">
+                    <img class="w-8" :src="`/custom_apps/siteovk/images/document/pdf.png`" alt="Illustration">
+                    <a :href="`${ item.description }`" class="mt-1 ml-1 font-serif lg:text-xl font-normal">{{ item.title }}</a>
+                </div>
             </div>
         </div>
         <div class="flex px-6">
