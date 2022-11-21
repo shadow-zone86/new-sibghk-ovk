@@ -17,7 +17,8 @@
             >
                 <div class="mt-8 ml-8 mb-8 mr-8 w-full">
                     <div class="h-16">
-                        <Icon :icon="`${ item.data }`" color="#00486D" width="56" />
+                        <!-- <Icon :icon="`${ item.data }`" color="#00486D" width="56" /> -->
+                        <img :src="`/custom_apps/siteovk/images/document/${ item.title }.png`" alt="Illustration">
                     </div>
                     <div class="mt-20 flex flex-col justify-center">
                         <p class="text-[#00486D] font-serif lg:text-xl font-normal">
