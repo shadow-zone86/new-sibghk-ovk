@@ -39,6 +39,8 @@
 <style>
   html {
     scroll-behavior: smooth;
-    background-color: rgb(239 246 255 / var(--tw-bg-opacity));
+  }
+  #content {
+    background-color: #EFF6FF;
   }
 </style>
